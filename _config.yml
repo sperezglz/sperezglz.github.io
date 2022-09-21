@@ -26,9 +26,11 @@ url: "https://sperezglz.github.io" # the base hostname & protocol for your site,
 github_username:  sperezglz 
 
 # Build settings
+
 theme: minima
+markdown: kramdown
 plugins:
-        #  - jekyll-feed
+      - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
