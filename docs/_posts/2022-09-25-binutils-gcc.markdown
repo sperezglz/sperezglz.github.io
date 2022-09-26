@@ -21,7 +21,7 @@ $ export PATH="${PREFIX}/bin:${PATH}"
 Step 4: Configure and build binutils.
 {% highlight ruby %}
 $ cd <binutils-source-folder>
-$ ./configure --prefix="$PREFIX" --target=<target> --disable-nls --disable-werror
+$ ./configure --prefix="${PREFIX}" --target=<target> --disable-nls --disable-werror
 $ make
 $ make install
 {% endhighlight %}
